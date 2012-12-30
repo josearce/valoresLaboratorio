@@ -1,0 +1,1132 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="custom.css" rel="stylesheet" type="text/css">
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Valores de Laboratorio</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#cardiaco">Cardíaco</a></li>
+            <li><a href="#renal">Renal</a></li>
+            <li><a href="#orina">Orina</a></li>
+            <li><a href="#electrolitos">Electrolitos</a></li>
+            <li><a href="#acidobase">Balance ácido/base</a></li>
+            <li><a href="#hierro">Hierro</a></li>
+            <li><a href="#pancreas">Páncreas</a></li>
+            <li><a href="#hepatico">Hepático</a></li>
+            <li><a href="#tumorales">Marcadores tumorales</a></li>
+            <li><a href="#hemato">Hematología</a></li>
+            <li><a href="#lcr">Líquido cefalorraquídeo</a></li>
+            <li><a href="#lipidos">Lípidos</a></li>
+            <li><a href="#meds">Medicamentos</a></li>
+            <li><a href="#toxi">Toxicología</a></li>
+            <li><a href="#endocrino">Endócrino</a></li>
+            <li><a href="#inmuno">Inmunología</a></li>
+		</ul>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="cardiaco">
+	<div data-role="header">
+		<h1>Laboratorios cardíacos</h1>
+	</div>
+	<div data-role="content">	
+		<table>
+  <tr>
+    <td>BNP</td>
+    <td>&lt; 100 pg/mL</td>
+  </tr>
+  <tr>
+    <td>Índice CK</td>
+    <td>&lt; 2.5</td>
+  </tr>
+  <tr>
+    <td>CK-MB</td>
+    <td>0-5 ng/mL</td>
+  </tr>
+  <tr>
+    <td>Gasto cardíaco</td>
+    <td>5 L/min</td>
+  </tr>
+  <tr>
+    <td>CK, mujer</td>
+    <td>30-135 U/L</td>
+  </tr>
+  <tr>
+    <td>CK, hombre</td>
+    <td>55-170 U/L</td>
+  </tr>
+  <tr>
+    <td>Fracción de eyección</td>
+    <td>&gt;55%</td>
+  </tr>
+  <tr>
+    <td>Frecuencia cardíaca</td>
+    <td>60-100 lpm</td>
+  </tr>
+  <tr>
+    <td>Mioglobina</td>
+    <td>&lt;0.09 &micro;g/mL</td>
+  </tr>
+  <tr>
+    <td>Volumen de eyección</td>
+    <td>70 mL</td>
+  </tr>
+  <tr>
+    <td>Troponina I</td>
+    <td>&lt;0.04 ng/mL</td>
+  </tr>
+  <tr>
+    <td>Troponina T</td>
+    <td>&lt;0.1 ng/mL</td>
+  </tr>
+      </table>
+	
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="renal">
+	<div data-role="header">
+		<h1>Laboratorios renales</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>BUN</td>
+	      <td>5-20 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Tasa BUN:creatinina</td>
+	      <td>10-20:1</td>
+        </tr>
+	    <tr>
+	      <td>Creatinina, mujer</td>
+	      <td>0.8-1.4 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Creatinina, hombre</td>
+	      <td>0.6-1.2 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Microalbuminuria</td>
+	      <td>30-300 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>eGFR</td>
+	      <td>60 mL/min/1.73m<span class="superscript">2</span></td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="orina">
+	<div data-role="header">
+		<h1>Orina</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>5-HIAA, orina</td>
+	      <td>3-15 mg/d</td>
+        </tr>
+	    <tr>
+	      <td>Bilirrubina, orina</td>
+	      <td>&lt;3 umol/L</td>
+        </tr>
+	    <tr>
+	      <td>Glucosa, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Cetonas, orina</td>
+	      <td>&lt;5 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Esterasa leucocitaria</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Nitritos, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Osmolaridad, orina</td>
+	      <td>50-1200 mOsm/kg</td>
+        </tr>
+	    <tr>
+	      <td>Proteínas, orina</td>
+	      <td>&lt;100 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Eritrocitos, orina</td>
+	      <td>&lt;4 eritrocitos/campo</td>
+        </tr>
+	    <tr>
+	      <td>Gravedad específica</td>
+	      <td>1.010-1.030</td>
+        </tr>
+	    <tr>
+	      <td>Urobilinógeno</td>
+	      <td>1-4 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>HGC, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>pH, orina</td>
+	      <td>4.8-7.5</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+
+<div data-role="page" id="electrolitos">
+	<div data-role="header">
+		<h1>Electrolitos</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Amonio, sérico</td>
+	      <td>15-45 ug/dL</td>
+        </tr>
+	    <tr>
+	      <td>Calcio, ionizado</td>
+	      <td>4.4-5.4 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Calcio, sérico</td>
+	      <td>8.5-10.2 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Ceruloplasmina, sérica</td>
+	      <td>20-35 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Cloro, sérico</td>
+	      <td>98-107 mEq/L</td>
+        </tr>
+	    <tr>
+	      <td>Cobre, mujer</td>
+	      <td>80-155 ug/dL</td>
+        </tr>
+	    <tr>
+	      <td>Cobre, hombre</td>
+	      <td>70-140 ug/dL</td>
+        </tr>
+	    <tr>
+	      <td>Glucosa, ayuno</td>
+	      <td>65-100 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Lactato, arterial</td>
+	      <td>4.5-19.8 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Lactato, venoso</td>
+	      <td>8.1-15.2 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Magnesio, sérico</td>
+	      <td>1.8-3.0 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Osmolaridad, plasmática</td>
+	      <td>275-299 mOsm/kg</td>
+        </tr>
+	    <tr>
+	      <td>Fósforo, sérico</td>
+	      <td>2.5-4.5 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Potasio, sérico</td>
+	      <td>3.6-5.0 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Piruvato cinasa</td>
+	      <td>0.3-0.9 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Sodio, sérico</td>
+	      <td>134-144 mEq/L</td>
+        </tr>
+	    <tr>
+	      <td>Ácido úrico, mujer</td>
+	      <td>2.0-7.0 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Ácido úrico, hombre</td>
+	      <td>2.5-7.8 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Zinc, sérico</td>
+	      <td>70-130 ug/dL</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="acidobase">
+	<div data-role="header">
+		<h1>Balance ácido base</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Anion Gap</td>
+	      <td>8-16 mEq/L</td>
+        </tr>
+	    <tr>
+	      <td>Exceso de base</td>
+	      <td>+-3mEq/L</td>
+        </tr>
+	    <tr>
+	      <td>Bicarbonato, sérico</td>
+	      <td>21-28 mEq/L</td>
+        </tr>
+	    <tr>
+	      <td>Bicarbonato, estándar</td>
+	      <td>21-28 mEq/L</td>
+        </tr>
+	    <tr>
+	      <td>CO2, presión parcial</td>
+	      <td>33-45 mmHg</td>
+        </tr>
+	    <tr>
+	      <td>O2, saturación</td>
+	      <td>96-100%</td>
+        </tr>
+	    <tr>
+	      <td>O2, presión parcial</td>
+	      <td>75-105 mmHg</td>
+        </tr>
+	    <tr>
+	      <td>pH, arterial</td>
+	      <td>7.34-7.45</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="hierro">
+	<div data-role="header">
+		<h1>Estudios de Hierro</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Ferritina, mujer</td>
+	      <td>20-200 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Ferritina, hombre</td>
+	      <td>20-300 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Hierro, niño</td>
+	      <td>50-120 ug/dL</td>
+        </tr>
+	    <tr>
+	      <td>Hierro, mujer</td>
+	      <td>26-170 ug/dL</td>
+        </tr>
+	    <tr>
+	      <td>Hierro, hombre</td>
+	      <td>65-198 ug/dL</td>
+        </tr>
+	    <tr>
+	      <td>Hierro, neonato</td>
+	      <td>100-250 ug/dL</td>
+        </tr>
+	    <tr>
+	      <td>Capacidad de fijación de hierro</td>
+	      <td>240-450 ug/dL</td>
+        </tr>
+	    <tr>
+	      <td>Hierro cuantitativo en hígado</td>
+	      <td>100-300 ug/g tejido</td>
+        </tr>
+	    <tr>
+	      <td>Saturación de transferrina</td>
+	      <td>20-50%</td>
+        </tr>
+	    <tr>
+	      <td>Transferrina, sérica</td>
+	      <td>204-360 mg/dL</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="pancreas">
+	<div data-role="header">
+		<h1>Enfermedad pancreática</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Amilasa</td>
+	      <td>30-100 U/L</td>
+        </tr>
+	    <tr>
+	      <td>Amilasa, sérica</td>
+	      <td>30-100 U/L</td>
+        </tr>
+	    <tr>
+	      <td>Amilasa, orina</td>
+	      <td>0-14 U/h</td>
+        </tr>
+	    <tr>
+	      <td>Lipasa, sérica</td>
+	      <td>&lt;160 UI/L</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="orina">
+	<div data-role="header">
+		<h1>Enfermedad hepática</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>ALT</td>
+	      <td>10-35 UI/L</td>
+        </tr>
+	    <tr>
+	      <td>AST</td>
+	      <td>&lt;35 UI/L</td>
+        </tr>
+	    <tr>
+	      <td>Albúmina, sérica</td>
+	      <td>3.5-5 g/dL</td>
+        </tr>
+	    <tr>
+	      <td>Fosfatasa alcalina</td>
+	      <td>44-147 UI/L</td>
+        </tr>
+	    <tr>
+	      <td>Bilirrubina directa</td>
+	      <td>&lt;0.4 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Bilirrubina total</td>
+	      <td>0.3-1 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>GGT</td>
+	      <td>15-80 UI/L</td>
+        </tr>
+	    <tr>
+	      <td>Globulina</td>
+	      <td>2.3-3.5 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Anticuerpos hepatitis A IgG</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Anticuerpos hepatitis A IgM</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Anticuerpos core hepatitis B IgG</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Anticuerpos core hepatitis B IgM</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Anticuerpo e hepatitis B</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Antígeno e hepatitis B</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Anticuerpo de superficie hepatitis B</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Antígeno de superficie hepatitis B</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>DNA viral hepatitis B</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Anticuerpo hepatitis C</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>DNA viral hepatitis C</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>DHL</td>
+	      <td>90-230 UI/L</td>
+        </tr>
+	    <tr>
+	      <td>TP</td>
+	      <td>11.4-14.2 seg</td>
+        </tr>
+	    <tr>
+	      <td>TP INR</td>
+	      <td>0.9-1.2</td>
+        </tr>
+	    <tr>
+	      <td>TPT</td>
+	      <td>25-35 seg</td>
+        </tr>
+	    <tr>
+	      <td>Proteínas totales</td>
+	      <td>6.5-8.2 mg/dL</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="tumorales">
+	<div data-role="header">
+		<h1>Marcadores tumorales</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Alfa fetoproteína</td>
+	      <td>&lt;8 ug/L</td>
+        </tr>
+	    <tr>
+	      <td>HGC beta</td>
+	      <td>&lt;5 mUI/mL</td>
+        </tr>
+	    <tr>
+	      <td>CA 125</td>
+	      <td>&lt;35 U/mL</td>
+        </tr>
+	    <tr>
+	      <td>CA 19-9</td>
+	      <td>&lt;55 U/mL</td>
+        </tr>
+	    <tr>
+	      <td>CEA &lt;50 años</td>
+	      <td>&lt;3.5 ug/L</td>
+        </tr>
+	    <tr>
+	      <td>CEA &lt;70 años</td>
+	      <td>&lt;4.0 ug/L</td>
+        </tr>
+	    <tr>
+	      <td>Papanicolaou</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Antígeno prostático específico</td>
+	      <td>&lt;4 ng/mL</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="orina">
+	<div data-role="header">
+		<h1>Hematología</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Bandas % adulto</td>
+	      <td>0-3% GR</td>
+        </tr>
+	    <tr>
+	      <td>Basófilos % adulto</td>
+	      <td>&lt;3 umol/L</td>
+        </tr>
+	    <tr>
+	      <td>Basófilos conteo neonato</td>
+	      <td>&lt;0.64x10<span class="superscript">9</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Tiempo de sangrado</td>
+	      <td>3-8 minutos</td>
+        </tr>
+	    <tr>
+	      <td>Eosinófilos adulto</td>
+	      <td>1-3% GR</td>
+        </tr>
+	    <tr>
+	      <td>Eosinófilos conteo neonatos</td>
+	      <td>0.02-0.85x10<span class="superscript">9</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Fibrinógeno</td>
+	      <td>200-400 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Hematocrito niño</td>
+	      <td>31-43%</td>
+        </tr>
+	    <tr>
+	      <td>Hematocrito mujer</td>
+	      <td>36-45%</td>
+        </tr>
+	    <tr>
+	      <td>Hematocrito hombre</td>
+	      <td>40-50%</td>
+        </tr>
+	    <tr>
+	      <td>Hemoglobina A1c</td>
+	      <td>4-6%</td>
+        </tr>
+	    <tr>
+	      <td>Hemoglobina mujer</td>
+	      <td>11.5-16 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Hemoglobina fetal</td>
+	      <td>&lt;2%</td>
+        </tr>
+	    <tr>
+	      <td>Hemoglobina hombre</td>
+	      <td>13.2-17.5 g/dL</td>
+        </tr>
+	    <tr>
+	      <td>Hemoglobina sérica</td>
+	      <td>1-4 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Linfocitos % adulto</td>
+	      <td>25-33% GB</td>
+        </tr>
+	    <tr>
+	      <td>Linfocitos conteo neonato</td>
+	      <td>2-11x10<span class="superscript">9</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>HCM</td>
+	      <td>25-35 pg/célula</td>
+        </tr>
+	    <tr>
+	      <td>CHCM</td>
+	      <td>31-35 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>VCM mujer</td>
+	      <td>76-100 fL</td>
+        </tr>
+	    <tr>
+	      <td>VCM hombre</td>
+	      <td>76-100 fL</td>
+        </tr>
+	    <tr>
+	      <td>Monocitos % adulto</td>
+	      <td>3-7% GB</td>
+        </tr>
+	    <tr>
+	      <td>Monocitos conteo neonato</td>
+	      <td>0.4-3.1x10<span class="superscript">9</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Leucocitos mononucleares</td>
+	      <td>20-35% GB</td>
+        </tr>
+	    <tr>
+	      <td>Neutrófilos % adulto</td>
+	      <td>54-62% GB</td>
+        </tr>
+	    <tr>
+	      <td>Neutrófilos conteo niño</td>
+	      <td>6-26x10<span class="superscript">9</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Plaquetas</td>
+	      <td>150-400x10<span class="superscript">9</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Amplitud de distribución eritrocitaria</td>
+	      <td>11.5-14.5%</td>
+        </tr>
+	    <tr>
+	      <td>Eritrocitos mujer</td>
+	      <td>3.5-5.5x10<span class="superscript">6</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Eritrocitos niño</td>
+	      <td>3.8-5.5x10<span class="superscript">6</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Eritrocitos hombre</td>
+	      <td>4.3-5.9x10<span class="superscript">6</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Reticulocitos adulto</td>
+	      <td>0.5-1.5% GR</td>
+        </tr>
+	    <tr>
+	      <td>Reticulocitos niño</td>
+	      <td>0.5-3.1% GR</td>
+        </tr>
+	    <tr>
+	      <td>Reticulocitos neonato</td>
+	      <td>1.1-4.5% GR</td>
+        </tr>
+	    <tr>
+	      <td>Tiempo de trombina</td>
+	      <td>11-18 seg</td>
+        </tr>
+	    <tr>
+	      <td>Leucocitos 1 año</td>
+	      <td>6-18x10<span class="superscript">3</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Leucocitos adulto</td>
+	      <td>4.1-10.9x10<span class="superscript">3</span>/L</td>
+        </tr>
+	    <tr>
+	      <td>Leucocitos neonato</td>
+	      <td>9-30x10<span class="superscript">3</span>/L</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="lcr">
+	<div data-role="header">
+		<h1>Líquido cefalorraquídeo</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Apariencia</td>
+	      <td>Claro, sin color</td>
+        </tr>
+	    <tr>
+	      <td>Conteo celular</td>
+	      <td>&lt;5 células/mm<span class="superscript">3</span></td>
+        </tr>
+	    <tr>
+	      <td>Glucosa</td>
+	      <td>2/3 nivel sérico</td>
+        </tr>
+	    <tr>
+	      <td>Índice IgG</td>
+	      <td>0.29-0.59</td>
+        </tr>
+	    <tr>
+	      <td>Presión de apertura</td>
+	      <td>90-180 mmH<span class="subscript">2</span>O</td>
+        </tr>
+	    <tr>
+	      <td>Producción</td>
+	      <td>500 mL/día</td>
+        </tr>
+	    <tr>
+	      <td><p>Proteínas</p></td>
+	      <td>15-45 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Eritrocitos</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>VDRL</td>
+	      <td>No reactivo</td>
+        </tr>
+	    <tr>
+	      <td>Volumen</td>
+	      <td>90-150 ml</td>
+        </tr>
+	    <tr>
+	      <td>Leucocitos</td>
+	      <td>&lt;5 leucos/mm<span class="superscript">3</span></td>
+        </tr>
+	    <tr>
+	      <td>HGC, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>pH, orina</td>
+	      <td>4.8-7.5</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="orina">
+	<div data-role="header">
+		<h1>Perfil de lípidos</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Colesterol</td>
+	      <td>&lt;180 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>HDL mujer</td>
+	      <td>50-100 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>HDL hombre</td>
+	      <td>45-90 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>LDL</td>
+	      <td>&lt;100 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Triglicéridos 10-39 años</td>
+	      <td>54-110 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Triglicéridos 40-59 años</td>
+	      <td>70-150 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Triglicéridos &gt;60 años</td>
+	      <td>80-150 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>VLDL</td>
+	      <td>&lt;30 mg/dL</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="medicamentos">
+	<div data-role="header">
+		<h1>Medicamentos</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Amikacina pico</td>
+	      <td>20-0 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Amikacina</td>
+	      <td>4-8 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Amitriptilina</td>
+	      <td>120-150 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Carbamacepina</td>
+	      <td>4-12 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Ciclosporina</td>
+	      <td>150-400 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Desipramina</td>
+	      <td>100-300 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Digoxina</td>
+	      <td>0.8-2.0 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Etosuximida</td>
+	      <td>40-100 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Gentamicina pico</td>
+	      <td>4-8 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Gentamicina </td>
+	      <td>&lt;2 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Imipramina</td>
+	      <td>150-300 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Lidocaína</td>
+	      <td>1-5 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Litio</td>
+	      <td>0.5-1.5 mEq/L</td>
+        </tr>
+	    <tr>
+	      <td>Nortriptilina</td>
+	      <td>50-140 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Fenobarbital</td>
+	      <td>10-30 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Fenitoína</td>
+	      <td>10-20 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Primidona</td>
+	      <td>5-10 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Procainamida</td>
+	      <td>4-8 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Quinidina</td>
+	      <td>2-5 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Sirolimus</td>
+	      <td>12-20 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Tacrolimus</td>
+	      <td>5-20 ng/mL</td>
+        </tr>
+	    <tr>
+	      <td>Teofilina</td>
+	      <td>5-20 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Tobramicina pico</td>
+	      <td>5-10 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Tobramicina</td>
+	      <td>&lt;2 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Ácido valproíco</td>
+	      <td>55-100 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Vancomicina pico</td>
+	      <td>20-40 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Vancomicina</td>
+	      <td>5-10 ug/mL</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="orina">
+	<div data-role="header">
+		<h1>Toxicología</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>Acetaminofen</td>
+	      <td>&lt;10-20 mg/L</td>
+        </tr>
+	    <tr>
+	      <td>Carboxihemoglobina</td>
+	      <td>&lt;2%</td>
+        </tr>
+	    <tr>
+	      <td>Carboxihemoglobina, fumadores</td>
+	      <td>&lt;9%</td>
+        </tr>
+	    <tr>
+	      <td>Etanol</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Plomo</td>
+	      <td>&lt;40 ug/mL</td>
+        </tr>
+	    <tr>
+	      <td>Metanol</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Salicilato</td>
+	      <td>&lt;20-30 mg/dL</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="orina">
+	<div data-role="header">
+		<h1>Orina</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>5-HIAA, orina</td>
+	      <td>3-15 mg/d</td>
+        </tr>
+	    <tr>
+	      <td>Bilirrubina, orina</td>
+	      <td>&lt;3 umol/L</td>
+        </tr>
+	    <tr>
+	      <td>Glucosa, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Cetonas, orina</td>
+	      <td>&lt;5 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Esterasa leucocitaria</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Nitritos, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Osmolaridad, orina</td>
+	      <td>50-1200 mOsm/kg</td>
+        </tr>
+	    <tr>
+	      <td>Proteínas, orina</td>
+	      <td>&lt;100 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Eritrocitos, orina</td>
+	      <td>&lt;4 eritrocitos/campo</td>
+        </tr>
+	    <tr>
+	      <td>Gravedad específica</td>
+	      <td>1.010-1.030</td>
+        </tr>
+	    <tr>
+	      <td>Urobilinógeno</td>
+	      <td>1-4 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>HGC, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>pH, orina</td>
+	      <td>4.8-7.5</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+<div data-role="page" id="orina">
+	<div data-role="header">
+		<h1>Orina</h1>
+	</div>
+	<div data-role="content">
+	  <table>
+	    <tr>
+	      <td>5-HIAA, orina</td>
+	      <td>3-15 mg/d</td>
+        </tr>
+	    <tr>
+	      <td>Bilirrubina, orina</td>
+	      <td>&lt;3 umol/L</td>
+        </tr>
+	    <tr>
+	      <td>Glucosa, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Cetonas, orina</td>
+	      <td>&lt;5 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Esterasa leucocitaria</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Nitritos, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>Osmolaridad, orina</td>
+	      <td>50-1200 mOsm/kg</td>
+        </tr>
+	    <tr>
+	      <td>Proteínas, orina</td>
+	      <td>&lt;100 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>Eritrocitos, orina</td>
+	      <td>&lt;4 eritrocitos/campo</td>
+        </tr>
+	    <tr>
+	      <td>Gravedad específica</td>
+	      <td>1.010-1.030</td>
+        </tr>
+	    <tr>
+	      <td>Urobilinógeno</td>
+	      <td>1-4 mg/dL</td>
+        </tr>
+	    <tr>
+	      <td>HGC, orina</td>
+	      <td>Negativo</td>
+        </tr>
+	    <tr>
+	      <td>pH, orina</td>
+	      <td>4.8-7.5</td>
+        </tr>
+      </table>
+	</div>
+	<div data-role="footer">
+		<h4>Page Footer</h4>
+	</div>
+</div>
+</body>
+</html>
